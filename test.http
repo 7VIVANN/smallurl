@@ -1,0 +1,19 @@
+#### put a long urlas body content
+post http://localhost:5678/
+Content-Type: application/json
+
+{
+    "longUrl":"https://www.geeksforgeeks.org/express-js-res-redirect-function/"
+}
+
+#### put a long urlas body content
+post http://localhost:5678/
+Content-Type: application/json
+
+{
+    "longUrl":"https://expressjs.com/en/guide/routing.html#:~:text=Route%20parameters%20are%20named%20URL,path%20as%20their%20respective%20keys."
+}
+
+
+#### get shorturl
+get http://localhost:5678/hOBB2HE
